@@ -1,0 +1,24 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="WFM Automation Suite" >
+
+    <test name="WFM Sanity Test" >
+
+        <classes>
+            <class name="wfm.qa.tests.CreateAccountTest"  />
+            <class name="wfm.qa.tests.LoginTest" />
+        </classes>
+
+    </test>
+
+</suite>
+
+    <!--
+    <test name="Regression1">
+        <classes>
+            <class name="test.sample.ParameterSample"/>
+            <class name="test.sample.ParameterTest"/>
+        </classes>
+    </test>
+    -->
+

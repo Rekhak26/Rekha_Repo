@@ -2,6 +2,7 @@ package wfm.qa.base;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 import wfm.qa.util.TestUtil;
 
 import java.io.FileInputStream;
@@ -13,6 +14,7 @@ import java.util.concurrent.TimeUnit;
 public class TestBase {
     public static WebDriver driver;
     public static Properties prop;
+    //public Actions action = new Actions(driver);
 
     public TestBase(){
         try{
